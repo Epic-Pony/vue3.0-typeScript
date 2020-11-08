@@ -1,30 +1,31 @@
+<!--
+ * @Description: KEEP CALM AND MAKE EPIC SHIT - PONY ZHANG
+ * @Version: 2.0
+ * @Autor: PONY ZHANG
+ * @Date: 2020-11-08 21:46:50
+ * @LastEditors: PONY ZHANG
+ * @LastEditTime: 2020-11-08 22:16:28
+-->
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="wrapper">
+    Vue3.0+TypeScript
+    <todo-input></todo-input>
+    <todo-list></todo-list>
   </div>
-  <router-view/>
 </template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+import TodoInput from  './components/TodoInput/index.vue';
+import TodoList from  './components/TodoList/index.vue';
 
+export default defineComponent({
+  name:"App",
+  components: {
+    TodoInput,
+    TodoList,
+  },
+})
+</script>
 <style lang="less">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>
