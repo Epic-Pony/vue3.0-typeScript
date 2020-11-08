@@ -3,8 +3,8 @@
  * @Version: 2.0
  * @Autor: Pony
  * @Date: 2020-11-08 21:46:50
- * @LastEditors: Pony
- * @LastEditTime: 2020-11-08 21:52:03
+ * @LastEditors: PONY ZHANG
+ * @LastEditTime: 2020-11-08 21:55:36
  */
 import { createStore } from 'vuex'
 import state from './state';
@@ -15,3 +15,4 @@ export default createStore({
   mutations,
   actions, 
 })
+ 
