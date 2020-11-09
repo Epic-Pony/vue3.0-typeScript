@@ -1,8 +1,16 @@
+<!--
+ * @Description: KEEP CALM AND MAKE EPIC SHIT - PONY ZHANG
+ * @Version: 2.0
+ * @Autor: PONY ZHANG
+ * @Date: 2020-11-08 21:46:54
+ * @LastEditors: PONY ZHANG
+ * @LastEditTime: 2020-11-09 23:06:00
+-->
 # 组件 -> commit -> mutation -> state -> 视图变化 -> 响应式
  - Vuex工作流
     1. 组件 -> dispatch -> action
     2. dispatch -> type(actionType) -> 某一个action
-    3. action -> commit 待哦用 -> mutation
+    3. action -> commit 待用 -> mutation
     4. mutation -> change -> state
     5. render方案： state -> 数据流 -> 视图
 - 文件集合
